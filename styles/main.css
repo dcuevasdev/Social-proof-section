@@ -33,25 +33,23 @@ html {
   margin: 40px auto 0;
 }
 .message__stars .message__star {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   width: 100%;
   height: 80px;
   margin: 20px 0;
-  padding: 0 auto;
   border-radius: 10px;
+  text-align: center;
   background-color: #f7f2f7;
 }
-.message__stars .message__star figure {
+.message__stars .message__star .star__box {
   margin: 0 auto;
 }
-.message__stars .message__star figure img {
-  margin: 0 5px 10px 5px;
+.message__stars .message__star .star__box img {
+  margin: 18px 5px 10px 5px;
 }
 .message__stars .message__star h4 {
-  width: 100%;
-  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #502050;
 }
 .attribution {
   font-size: 11px;
