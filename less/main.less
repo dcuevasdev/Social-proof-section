@@ -15,6 +15,54 @@ html {
   font-size: 62.5%;
 }
 
+.message {
+  width: 100%;
+  &__words {
+    width: 90%;
+    margin: 40px auto 0px;
+    h1 {
+      width: 281px;
+      margin: 0 auto 20px;
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: @color-primary;
+    }
+    p {
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: @dark-magenta;
+    }
+  }
+
+  &__stars {
+    width: 90%;
+    margin: 40px auto 0;
+    .message__star {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+      height: 80px;
+      margin: 20px 0;
+      padding: 0 auto;
+      border-radius: 10px;
+      background-color: @light-magenta;
+      figure {
+        margin: 0 auto;
+        img {
+          margin: 0 5px 10px 5px;
+        }
+      }
+      h4 {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;

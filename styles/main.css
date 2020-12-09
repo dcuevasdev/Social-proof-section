@@ -7,6 +7,52 @@ html {
   font-family: "Spartan", sans-serif;
   font-size: 62.5%;
 }
+.message {
+  width: 100%;
+}
+.message__words {
+  width: 90%;
+  margin: 40px auto 0px;
+}
+.message__words h1 {
+  width: 281px;
+  margin: 0 auto 20px;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #502050;
+}
+.message__words p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #937b92;
+}
+.message__stars {
+  width: 90%;
+  margin: 40px auto 0;
+}
+.message__stars .message__star {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  margin: 20px 0;
+  padding: 0 auto;
+  border-radius: 10px;
+  background-color: #f7f2f7;
+}
+.message__stars .message__star figure {
+  margin: 0 auto;
+}
+.message__stars .message__star figure img {
+  margin: 0 5px 10px 5px;
+}
+.message__stars .message__star h4 {
+  width: 100%;
+  text-align: center;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
