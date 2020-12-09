@@ -9,10 +9,11 @@ html {
 }
 .message {
   width: 100%;
+  margin: 40px 0;
 }
 .message__words {
   width: 90%;
-  margin: 40px auto 0px;
+  margin: 0px auto;
 }
 .message__words h1 {
   width: 281px;
@@ -50,6 +51,17 @@ html {
   font-size: 1.3rem;
   font-weight: 700;
   color: #502050;
+}
+.social {
+  width: 100%;
+}
+.social__box {
+  width: 90%;
+  height: 250px;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #502050;
 }
 .attribution {
   font-size: 11px;
