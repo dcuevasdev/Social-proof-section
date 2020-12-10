@@ -71,6 +71,33 @@ html {
     padding: 30px;
     border-radius: 10px;
     background-color: @color-primary;
+    .social__box--profile {
+      display: flex;
+      align-items: center;
+      .profile__img img {
+        width: 35px;
+        border-radius: 50%;
+      }
+      .profile__name {
+        margin-left: 20px;
+        h3 {
+          margin-bottom: 5px;
+          color: @light;
+        }
+        small {
+          font-size: 1.2rem;
+          font-weight: 400;
+          color: #a4528a;
+        }
+      }
+    }
+    p {
+      margin-top: 20px;
+      line-height: 150%;
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: @light;
+    }
   }
 }
 .attribution {

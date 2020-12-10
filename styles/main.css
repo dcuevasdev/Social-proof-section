@@ -63,6 +63,33 @@ html {
   border-radius: 10px;
   background-color: #502050;
 }
+.social__box .social__box--profile {
+  display: flex;
+  align-items: center;
+}
+.social__box .social__box--profile .profile__img img {
+  width: 35px;
+  border-radius: 50%;
+}
+.social__box .social__box--profile .profile__name {
+  margin-left: 20px;
+}
+.social__box .social__box--profile .profile__name h3 {
+  margin-bottom: 5px;
+  color: #fff;
+}
+.social__box .social__box--profile .profile__name small {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #a4528a;
+}
+.social__box p {
+  margin-top: 20px;
+  line-height: 150%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fff;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
