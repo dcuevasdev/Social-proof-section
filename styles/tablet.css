@@ -1,0 +1,19 @@
+.message {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.message__words {
+  margin-right: 10px;
+}
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+.social__box {
+  width: 320px;
+  height: 240px;
+}
