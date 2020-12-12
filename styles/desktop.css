@@ -1,5 +1,5 @@
 body {
-  background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+  background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
   background-repeat: no-repeat;
   background-position: left 0 top 0, right 0 top 30vh;
 }
