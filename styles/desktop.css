@@ -1,0 +1,51 @@
+body {
+  background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: left 0 top 0, right 0 top 30vh;
+}
+.message__words {
+  margin-top: 80px;
+}
+.message__words h1 {
+  width: 70%;
+  margin: 0 auto 10px auto;
+  text-align: left;
+  font-size: 4rem;
+}
+.message__words p {
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 160%;
+}
+.message__stars .message__star {
+  width: 450px;
+  height: 55px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.message__stars .message__star .star__box {
+  margin: 0 20px;
+}
+.message__stars .message__star .star__box img {
+  margin: 0 2px;
+}
+.message__stars .stars--two {
+  margin-left: 40px;
+}
+.message__stars .stars--three {
+  margin-left: 80px;
+}
+.social {
+  margin: 30px auto 5px;
+}
+.social__box {
+  width: 380px;
+}
+.social .box--two {
+  margin-top: 40px;
+}
+.social .box--three {
+  margin-top: 60px;
+}

@@ -1,0 +1,58 @@
+body {
+  background-image: url(/images/bg-pattern-top-desktop.svg),
+    url(/images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: left 0 top 0, right 0 top 30vh;
+}
+
+.message {
+  &__words {
+    margin-top: 80px;
+    h1 {
+      width: 70%;
+      margin: 0 auto 10px auto;
+      text-align: left;
+      font-size: 4rem;
+    }
+    p {
+      width: 70%;
+      margin: 0 auto;
+      text-align: left;
+      line-height: 160%;
+    }
+  }
+  &__stars {
+    .message__star {
+      width: 450px;
+      height: 55px;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      .star__box {
+        margin: 0 20px;
+        img {
+          margin: 0 2px;
+        }
+      }
+    }
+    .stars--two {
+      margin-left: 40px;
+    }
+    .stars--three {
+      margin-left: 80px;
+    }
+  }
+}
+
+.social {
+  margin: 30px auto 5px;
+  &__box {
+    width: 380px;
+  }
+  .box--two {
+    margin-top: 40px;
+  }
+  .box--three {
+    margin-top: 60px;
+  }
+}
